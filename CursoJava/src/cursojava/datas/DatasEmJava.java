@@ -2,6 +2,7 @@ package cursojava.datas;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+<<<<<<< HEAD
 import java.time.Duration;
 import java.time.Instant;
 import java.time.LocalDate;
@@ -10,10 +11,13 @@ import java.time.LocalTime;
 import java.time.Period;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
+=======
+>>>>>>> ab342fa436378471404a80440c2eaced989f047f
 import java.util.Calendar;
 import java.util.Date;
 
 public class DatasEmJava {
+<<<<<<< HEAD
 	public static void main(String[] args) throws ParseException, InterruptedException {
 		
 		//After e before
@@ -37,6 +41,9 @@ public class DatasEmJava {
 			
 		}
 		//-----------------------------------------------
+=======
+	public static void main(String[] args) throws ParseException {
+>>>>>>> ab342fa436378471404a80440c2eaced989f047f
 		Calendar calendar = Calendar.getInstance();
 		//Prefira usar o calendar
 		System.out.println("Calendar em milisegundos: "+calendar.getTimeInMillis());
@@ -65,6 +72,7 @@ public class DatasEmJava {
 		System.out.println(simpleDateFormat.format(date));
 		
 		System.out.println(simpleDateFormat.parse("11/03/1988 17:32:21:457"));//tem que ser de acordo com o ultimo formato instanciado, converte para um objeto data
+<<<<<<< HEAD
 		
 		
 		//--------------------------------------------------------------------------------
@@ -146,5 +154,7 @@ public class DatasEmJava {
 		System.out.println("+5 Anos: "+(dataBase = dataBase.plusYears(5)));
 		System.out.println("-1 Ano: "+(dataBase = dataBase.minusYears(1)));
 		System.out.println("-1 Mês: "+(dataBase = dataBase.minusMonths(1)));
+=======
+>>>>>>> ab342fa436378471404a80440c2eaced989f047f
 	}
 }
