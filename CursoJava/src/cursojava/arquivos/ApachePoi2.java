@@ -2,7 +2,6 @@ package cursojava.arquivos;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -15,6 +14,7 @@ import org.apache.poi.ss.usermodel.Row;
 
 public class ApachePoi2 {
 	public static void main(String[] args) throws IOException {
+		//Verifique se o arquivo existe antes de rodar esse código
 		FileInputStream entrada = new FileInputStream(new File("C:\\Users\\ruvia\\git\\repository\\CursoJava\\src\\cursojava\\arquivos\\arquivo_teste.xls"));
 		HSSFWorkbook hssfW = new HSSFWorkbook(entrada);//Prepara a entrada do arquivo excel para ler
 		HSSFSheet planilha = hssfW.getSheetAt(0);//Pega a primeira aba do arquivo excel
