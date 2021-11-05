@@ -1,0 +1,2 @@
+https://mvnrepository.com/artifact/org.apache.poi/poi - para manipulação de arquivos de excel no java
+https://mvnrepository.com/artifact/org.apache.commons/commons-math3/3.6.1 - baixar esse também

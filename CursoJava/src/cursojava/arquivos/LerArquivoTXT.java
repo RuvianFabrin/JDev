@@ -3,7 +3,6 @@ package cursojava.arquivos;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.lang.System.Logger;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -12,7 +11,7 @@ public class LerArquivoTXT {
 
 	public static void main(String[] args) throws FileNotFoundException {
 		FileInputStream entradaArquivo = new FileInputStream(
-				new File("C:\\Users\\ruvia\\git\\repository\\CursoJava\\src\\cursojava\\arquivos\\arquivo.txt"));
+				new File("C:\\Users\\ruvia\\git\\repository\\CursoJava\\src\\cursojava\\arquivos\\arquivo.csv"));
 		
 		Scanner lerArquivo = new Scanner(entradaArquivo, "UTF-8");
 
