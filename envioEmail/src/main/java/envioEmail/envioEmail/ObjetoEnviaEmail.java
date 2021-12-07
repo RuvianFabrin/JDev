@@ -12,8 +12,8 @@ import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 
 public class ObjetoEnviaEmail {
-	private String userName = "seu email remetente";
-	private String senha = "sua senha";
+	private String userName = "ganhar.em.dolar.oficial@gmail.com";
+	private String senha = "pvdwzfnnyheghyra";
 	private String listaDestinatarios = "";
 	private String nomeRemetente="";
 	private String assunto="";
